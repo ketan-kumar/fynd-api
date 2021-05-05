@@ -1,0 +1,27 @@
+{
+  "name": "fynd-api",
+  "version": "1.0.0",
+  "description": "Backend for movie platform",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "snyk test && NODE_ENV=test mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ketan-kumar/fynd-api.git"
+  },
+  "keywords": [
+    "moview",
+    "platform"
+  ],
+  "author": "ketan-kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ketan-kumar/fynd-api/issues"
+  },
+  "homepage": "https://github.com/ketan-kumar/fynd-api#readme"
+}
