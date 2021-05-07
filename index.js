@@ -24,7 +24,7 @@ app.listen(process.env.PORT,  () => {
 });
 
 //connect to mongoose
-mongoose.connect('mongodb://localhost/fynd', {
+mongoose.connect('mongodb+srv://007ketan:root@123@cluster0.425rv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }).then(() => {
